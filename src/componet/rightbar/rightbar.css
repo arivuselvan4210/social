@@ -1,0 +1,105 @@
+.rightContainer {
+  flex: 25%;
+  margin: 10px 0;
+}
+.rightbirthcontainer {
+  display: flex;
+  align-items: center;
+}
+.rightbirthimg {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin: 0 10px;
+}
+.rightbirthwish {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.birthimgcon {
+  margin: 10px;
+}
+.birthimg {
+  /* margin: 10px; */
+  border-radius: 10px;
+  object-fit: cover;
+  width: 100%;
+}
+.onlinecontainerr {
+  margin: 10px;
+}
+.onlinefrslists {
+  padding: 0%;
+  margin: 10px 0;
+  list-style: none;
+}
+.onlineimgcon {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0;
+}
+.onlinefrd {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.onlinePerson {
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  /* margin-right: 10px; */
+  object-fit: cover;
+  /* position: relative; */
+}
+.onlinedot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: -3px;
+}
+.onlineuser {
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+.friendcon h4 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.friendcon {
+  margin-left: 10px;
+}
+.friendBio {
+  margin: 10px 0;
+}
+.lable {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+.lableValue {
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.userfrdimg {
+  height: 100px;
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.userFrdCon {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+.userfrddes {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
