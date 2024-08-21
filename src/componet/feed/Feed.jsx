@@ -4,7 +4,6 @@ import Share from "../share/share";
 import Post from "../post/Post";
 import { Posts } from "../../dummyData";
 const Feed = () => {
-  console.log(Posts);
   return (
     <div className="feedContainer">
       <Share />
